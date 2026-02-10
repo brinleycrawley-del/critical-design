@@ -6,7 +6,13 @@
 	height: 400px;
 	margin: 64px auto;
 }
-
+.backgroundImage:hover {
+	background-image: url(../img/clock.png);
+	cursor: crosshair;
+}
+a:hover {
+	text-decoration:underline;
+}
 * {
 	font-family: Arial;
 }
