@@ -1,7 +1,12 @@
 /* styles.css */
 
+body{
+	background-color: #e6ce55;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 .backgroundImage {
-	background-image: url(../img/wrencg.png);
+	background-image: url(../img/wrench.png);
 	width: 400px;
 	height: 400px;
 	margin: 64px auto;
@@ -10,8 +15,51 @@
 	background-image: url(../img/clock.png);
 	cursor: crosshair;
 }
+
+h1{
+	color: black;
+	font-size: 48px;
+	text-align: center;
+
+}
+
+.text {
+
+	.text * {
+		display: inline-block;
+		width: 48%;
+		margin: 0;
+		padding: 0;
+		vertical-align: middle;
+	}
+
+	h2 {
+		color: dodgerblue;
+		font-size: 40px;
+		text-align: left;
+	}
+
+	h3 {
+		font-size: 16px;
+		text-align: right;
+
+	}
+
+	width: 50%;
+	margin 96px auto;
+}
+
 a:hover {
-	text-decoration:underline;
+	text-decoration: underline;
+}
+
+h3 a:link,
+h3 a:visited {
+	color: dodgerblue;
+	text-decoration: none;
+}
+h3 a:hover{
+	color: white;
 }
 * {
 	font-family: Arial;
