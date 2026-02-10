@@ -1,5 +1,9 @@
 /* styles.css */
 
+.backgroundImage {
+	background-image: url(../img/wrencg.png);
+}
+
 * {
 	font-family: Arial;
 }
